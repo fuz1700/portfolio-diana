@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(45, 81, 81);
+    background-color: brown;
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+h6{
+    font-size: 50px;
+ font-weight: 900;
+ 
+}
+
+img{
+    width: 30%;
+    border: 5px red solid;
+    border-radius: 30px;
+    transition: 2s;
+
+}
+
+h6:hover{
+    color: blue;
+}
+
+h6:active{
+    color: brown;
+    background-color: bisque;
+}
+
+img:hover{
+    /* transform:rotate(360deg) ; */
+    /* transform: scale(1.2); */
+    /* transform: skew(90deg); */
+    /* transform: translateY(100px); */
+}
